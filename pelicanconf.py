@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+THEME = 'pelican-blueidea'
+
 AUTHOR = 'Lucas Oliveira'
 SITENAME = 'lucaseduardo101'
 SITEURL = ''
