@@ -2,15 +2,13 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-#THEME = 'pelican-blueidea'
-
 AUTHOR = 'Lucas Oliveira'
-SITENAME = 'Lucas Oliveira'
-SITEURL = 'https://lucaseduardo101.github.io/'
+SITENAME = 'https://lucaseduardo101.github.io/'
+SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_LANG = 'pt'
 
@@ -24,14 +22,14 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'))
-
+         ('Jinja2', 'http://jinja.pocoo.org/'),
+         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('Linkedin', 'https://www.linkedin.com/in/lucas-oliveira-711b712a/'),
-          ('Github', 'https://github.com/lucaseduardo101/'),)
+SOCIAL = (('You can add links in your config file', '#'),
+          ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 1
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
