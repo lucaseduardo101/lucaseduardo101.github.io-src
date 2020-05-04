@@ -3,8 +3,9 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Lucas Oliveira'
-SITENAME = 'https://lucaseduardo101.github.io/'
+SITENAME = 'Lucas Oliveira'
 SITEURL = ''
+THEME = 'pelican-themes/bootstrap'
 
 PATH = 'content'
 
@@ -26,8 +27,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Linkedin', 'https://www.linkedin.com/in/lucas-oliveira-711b712a/'),
+          ('Github', 'https://github.com/lucaseduardo101'),
+          ('Twitter', 'https://twitter.com/lukseduardo101'))
 
 DEFAULT_PAGINATION = 1
 
