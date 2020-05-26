@@ -29,17 +29,17 @@ HOME_HIDE_TAGS = True
 
 MENUITEMS = (
     ('About', '/pages/about.html'),
-    ('Blog', '/category/blog.html'),
     ('Email', 'http://www.google.com/recaptcha/mailhide/d?...'),
     ('Vita', '/pdfs/HouserCV.pdf')
     )
 
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Blog', '/category/blog.html'),
+         ('Boas práticas', '/category/boas-praticas.html'),
+         ('Kotlin', '/category/kotlin.html'),
+         ('RPA', '/category/RPA.html'),)
+         
 
 # Social widget
 SOCIAL = (('linkedin', 'https://www.linkedin.com/in/lucas-oliveira-711b712a/'),
