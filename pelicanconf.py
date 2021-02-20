@@ -10,7 +10,7 @@ THEME = 'pelican-themes/Flex'
 PATH = 'content'
 
 TIMEZONE = 'America/Sao_Paulo'
-SITEURL = 'http://localhost:8000/'
+SITEURL = 'https://lucaseduardo101.github.io/'
 SITELOGO = SITEURL + '/profile.png'
 
 DEFAULT_LANG = 'pt'
