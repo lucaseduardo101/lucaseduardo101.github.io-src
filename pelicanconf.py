@@ -36,9 +36,15 @@ MENUITEMS = (
 
 # Blogroll
 LINKS = (('Blog', '/category/blog.html'),
-         ('Boas práticas', '/category/boas-praticas.html'),
-         ('Kotlin', '/category/kotlin.html'),
-         ('RPA', '/category/RPA.html'),)
+         ('Boas práticas', '/tag/boas-praticas.html'),
+         ('Exemplos de código', '/tag/exemplos-de-codigo.html'),
+         ('Java', '/tag/java.html'),
+         ('Kafka', '/tag/kafka'),
+         ('Micronaut', '/tag/micronaut.html'),         
+         ('SQL', '/tag/sql.html'),                        
+         ('Docker', '/tag/docker.html'),
+         ('Kotlin', '/tag/kotlin.html'),         
+         )
          
 
 # Social widget
